@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+
+    --color-brand: #7a5238;
+    --color-brand-hover: #654229;
+    --color-brand-active: #523521;
+    --color-brand-light: #f3ece4;
+
+    --color-amber-50: #faf6f2;
+    --color-amber-100: #f3ece4;
+    --color-amber-200: #e6d8ca;
+    --color-amber-300: #d4beaa;
+    --color-amber-400: #b89376;
+    --color-amber-500: #9c6f4f;
+    --color-amber-600: #885c3f;
+    --color-amber-700: #7a5238;
+    --color-amber-800: #654229;
+    --color-amber-900: #523521;
+    --color-amber-950: #2b2623;
+
+    --color-stone-50: #faf8f5;
+    --color-stone-100: #f4efeb;
+    --color-stone-200: #eae4dc;
+    --color-stone-300: #ddd6cc;
+    --color-stone-400: #a39b93;
+    --color-stone-500: #7a726b;
+    --color-stone-600: #5c554f;
+    --color-stone-700: #423c37;
+    --color-stone-800: #332d29;
+    --color-stone-900: #2b2623;
+    --color-stone-950: #1c1816;
+}
+
+html {
+    scrollbar-gutter: stable;
+    background-color: #faf8f5;
+    color: #2b2623;
+}
+
+body {
+    background-color: #faf8f5;
+    color: #2b2623;
+}
+
+
+body.role-admin table {
+    color: #000000;
+}
+
+body.role-admin table thead th {
+    color: #000000 !important;
+}
+
+body.role-admin table tbody td,
+body.role-admin table tfoot td,
+body.role-admin table tfoot th {
+    color: #000000 !important;
+}
+
+body.role-admin table td .text-stone-300,
+body.role-admin table td .text-stone-400,
+body.role-admin table td .text-stone-500,
+body.role-admin table td .text-stone-600,
+body.role-admin table td .text-stone-700,
+body.role-admin table td .text-stone-800,
+body.role-admin table td .text-stone-900,
+body.role-admin table td .text-gray-400,
+body.role-admin table td .text-gray-500,
+body.role-admin table td .text-gray-600,
+body.role-admin table td .text-gray-700,
+body.role-admin table th .text-stone-400,
+body.role-admin table th .text-stone-500,
+body.role-admin table th .text-gray-400,
+body.role-admin table th .text-gray-500 {
+    color: #000000 !important;
+}
+
